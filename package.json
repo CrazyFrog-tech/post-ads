@@ -1,0 +1,22 @@
+{
+  "name": "playwright-ads",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "post-ad": "ts-node src/postAdForcouplesCarpet.ts 5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "playwright": "^1.53.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
